@@ -1,0 +1,152 @@
+.menu{
+    background-color: rgb(0, 0, 0);
+    color: #000000;
+}
+
+.menu a{
+    font-family: "Lexend", sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    padding: 10px;
+    display: block;
+}
+
+/*Ao passar com o mouse mudar de cor*/
+.menu a:hover {
+    color: #7f0000;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 10px 0;
+    box-decoration-break: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    position:relative;
+    margin:0 15px;
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 1;
+    min-width: 160px;
+    padding: 0;
+}
+.gallery-container {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-around; /* Distribui os itens com espaço ao redor */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se não couberem */ 
+    padding: 10px;
+    width: 98%;
+    margin: auto; /
+    }
+    /* Cada item da galeria */
+    .gallery-item {
+    margin: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 180px; /* Define uma largura fixa para cada item */
+    }
+    /* Estilos para as imagens */
+    .gallery-item img {
+     width: 100%; /* Garante que a imagem preencha todo o espaço disponível */
+    height: auto; /* Mantém a proporção da imagem */
+    }
+    .gallery-item {
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 200px; /* Define uma largura fixa para cada item */
+    transition: all .3s;
+    }
+    
+    .gallery-container:hover .gallery-item{
+    opacity: .5;
+    }
+    .gallery-container .gallery-item:hover {
+    opacity: 1
+    }
+    
+    .gallery-item:hover{
+    transform: translateY(-20px)
+    }
+    /* Estilos para as imagens */
+    .gallery-item img {
+    width: 100%; /* Garante que a imagem preencha todo o espaço disponível */
+    height: auto; /* Mantém a proporção da imagem */
+}
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    }
+    footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+    footer-section {
+    /* Faz com que as seções ocupem 23% da largura, com espaço para margens */
+    flex-basis: 23%; 
+    margin-bottom: 20px;
+    }
+    footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    }
+    footer-section p, footer-section ul {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    }
+    footer-section ul {
+    list-style-type: none;
+    }
+    footer-section ul li { 
+        margin-bottom: 10px; 
+    }
+footer-section ul li a { 
+    color: white; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+footer-section ul li a:hover { 
+    color: #ff6347; }
+.social-links a {
+display: inline-block; 
+margin-right: 10px; 
+color: white; 
+text-decoration: none; 
+transition: color 0.3s; }
+social-links a:hover { 
+    color: #ff6347; }
+.footer-bottom { 
+    text-align: center; 
+    margin-top: 20px; 
+    padding: 10px 0; 
+    border-top: 1px solid #000000; 
+    font-size: 14px;
+    margin: 0; 
+}
+
